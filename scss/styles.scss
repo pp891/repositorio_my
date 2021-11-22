@@ -1,0 +1,170 @@
+//Paleta de colores
+@import "colores";
+
+//Tipografías
+@import "types";
+
+//Reseteo
+* {
+  margin: 0;
+  padding: 0;
+}
+
+//Generales
+body {
+  background-color: ($lino);
+}
+
+h1 {
+  color: ($uva);
+  font-family: ($secundaria), cursive;
+  margin: 50px;
+  padding: 15px;
+}
+
+h2 {
+  color: ($rosa-paradiso);
+  font-weight: bold;
+  font-family: ($secundaria), cursive;
+  padding: 2px;
+}
+
+h3 {
+  color: ($rosa-paradiso);
+  background-color: ($cardo-ruso);
+  font-family: ($secundaria), sans-serif;
+  padding: 4px;
+}
+
+p {
+  font-family: ($principal), sans-serif;
+}
+
+//Landing
+.heroLogo {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.heroImg {
+  width: 100%;
+}
+
+//Header
+header {
+  background-color: ($cardo-ruso);
+  font-size: 2rem;
+  nav ul li {
+    padding: 1px;
+    margin: 2px;
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: ($rosa-paradiso);
+    }
+  }
+}
+
+.estiloMenu {
+  color: ($uva);
+  font-family: ($principal), sans-serif;
+}
+
+// Estilos de imágenes y videos
+.imagenEventos {
+  border-radius: 25px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 3px;
+}
+
+.videos {
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.gridFotosEventos {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.ordenVideosShows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+//Estilos de la sección about us
+section ul li {
+  font-family: ($principal);
+}
+
+//Estilos de la sección de contacto
+.gridOrdenContacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 20px;
+}
+
+.linksRedesSociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ordenFieldset {
+    display: flex-block;
+    justify-content: stretch;
+}
+
+form {
+  margin: 10px;
+  padding: 10px;
+  font-family: ($principal);
+}
+
+fieldset {
+  padding: 15px;
+}
+
+textarea:placeholder-shown {
+  background-color: lightyellow + 25;
+}
+
+input:hover {
+  text-decoration: ($uva);
+  font-weight: bolder;
+}
+
+//Botón volver arriba
+button {
+  border-style: none;
+  a {
+    text-decoration: none;
+    color: ($shade-of-black);
+  }
+}
+
+//Footer
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: ($shade-of-black);
+  letter-spacing: 5px;
+  text-align: center;
+  p {
+    font-family: ($lighthouse), cursive;
+    color: ($cardo-ruso);
+  }
+  img {
+    height: 1.5rem;
+  }
+}
