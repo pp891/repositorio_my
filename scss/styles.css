@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5e9e2;
+}
+
+h1 {
+  color: #734;
+  font-family: "Cinzel Decorative", cursive;
+  margin: 50px;
+  padding: 15px;
+}
+
+h2 {
+  color: #d44d5c;
+  font-weight: bold;
+  font-family: "Cinzel Decorative", cursive;
+  padding: 2px;
+}
+
+h3 {
+  color: #d44d5c;
+  background-color: #e3b5a4;
+  font-family: "Cinzel Decorative", sans-serif;
+  padding: 4px;
+}
+
+p {
+  font-family: "Arima Madurai", sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e3b5a4;
+  font-size: 1.8rem;
+}
+
+header nav ul li {
+  padding: 1px;
+  margin: 2px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background-color: #d44d5c;
+}
+
+.heroImg {
+  height: 8rem;
+}
+
+.estiloMenu {
+  color: #734;
+  font-family: "Arima Madurai", sans-serif;
+}
+
+.imagenEventos {
+  border-radius: 25px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 3px;
+}
+
+.videos {
+  margin: 10px;
+  border-radius: 25px;
+}
+
+.gridFotosEventos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.ordenVideosShows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 10px;
+}
+
+section ul li {
+  font-family: "Arima Madurai";
+}
+
+.gridOrdenContacto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 20px;
+}
+
+.linksRedesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ordenFieldset {
+  display: flex-block;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+}
+
+form {
+  margin: 10px;
+  padding: 10px;
+  font-family: "Arima Madurai";
+}
+
+fieldset {
+  padding: 15px;
+}
+
+textarea:placeholder-shown {
+  background-color: lightyellow;
+}
+
+input:hover {
+  -webkit-text-decoration: #734;
+          text-decoration: #734;
+  font-weight: bolder;
+}
+
+button {
+  border-style: none;
+}
+
+button a {
+  text-decoration: none;
+  color: #0b0014;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #0b0014;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+footer p {
+  font-family: "Unica One", cursive;
+  color: #e3b5a4;
+}
+
+footer img {
+  height: 1.5rem;
+}
+/*# sourceMappingURL=styles.css.map */

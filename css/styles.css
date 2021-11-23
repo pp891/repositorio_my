@@ -26,17 +26,12 @@ h3 {
 p {
   font-family: "Arima Madurai", sans-serif; }
 
-.heroLogo {
-  display: flex;
-  justify-content: center;
-  margin: 10px; }
-
-.heroImg {
-  width: 100%; }
-
 header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: #e3b5a4;
-  font-size: 2rem; }
+  font-size: 1.8rem; }
   header nav ul li {
     padding: 1px;
     margin: 2px; }
@@ -44,6 +39,9 @@ header {
       text-decoration: none; }
     header nav ul li a:hover {
       background-color: #d44d5c; }
+
+.heroImg {
+  height: 8rem; }
 
 .estiloMenu {
   color: #734;
@@ -100,7 +98,7 @@ fieldset {
   padding: 15px; }
 
 textarea:placeholder-shown {
-  background-color: #fffff9; }
+  background-color: lightyellow; }
 
 input:hover {
   text-decoration: #734;

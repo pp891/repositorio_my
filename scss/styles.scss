@@ -40,21 +40,13 @@ p {
   font-family: ($principal), sans-serif;
 }
 
-//Landing
-.heroLogo {
-  display: flex;
-  justify-content: center;
-  margin: 10px;
-}
-
-.heroImg {
-  width: 100%;
-}
-
 //Header
 header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: ($cardo-ruso);
-  font-size: 2rem;
+  font-size: 1.8rem;
   nav ul li {
     padding: 1px;
     margin: 2px;
@@ -65,6 +57,10 @@ header {
       background-color: ($rosa-paradiso);
     }
   }
+}
+
+.heroImg {
+  height: 8rem;
 }
 
 .estiloMenu {
@@ -136,7 +132,7 @@ fieldset {
 }
 
 textarea:placeholder-shown {
-  background-color: lightyellow + 25;
+  background-color: lightyellow;
 }
 
 input:hover {
