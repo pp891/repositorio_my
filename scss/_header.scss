@@ -1,0 +1,28 @@
+//Header
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: ($cardo-ruso);
+  font-size: 1.8rem;
+  nav ul li {
+    padding: 1px;
+    margin: 2px;
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      background-color: ($rosa-paradiso);
+      color: ($uva);
+    }
+  }
+}
+
+.heroImg {
+  height: 8rem;
+}
+
+.estiloMenu {
+  color: ($uva);
+  font-family: ($principal), sans-serif;
+}

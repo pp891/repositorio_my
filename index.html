@@ -54,7 +54,7 @@
           alt="Logo de la marca Florencia Copoletti"
         />
       </div>
-      <nav>       
+      <nav>
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link estiloMenu" href="#servicios">Servicios</a>
@@ -252,97 +252,117 @@
     <!-- Fin de la sección SHOWS -->
     <!-- Inicio de la sección ABOUTUS -->
     <h1 id="aboutus">¿Quiénes somos?</h1>
-    <section>
-      <h2>Misión</h2>
-      <p>
-        Nuestra misión es cumplir con las expectativas y los deseos de cada uno
-        de nuestros actuales y futuros clientes; brindándoles seguridad,
-        contención y asesoramiento constantes pars que el día del evento puedan
-        disfutar sin preocupaciones.
-      </p>
-      <h2>Visión</h2>
-      <p>
-        Nuestra visión es ser reconocidos profesionalmente en el mercado de los
-        eventos y seguir creciendo, y superándonos, día a día.
-      </p>
-      <h2>Objetivos</h2>
-      <ul>
-        <li>Brindar un servicio de calidad.</li>
-        <li>
-          Asesorar a nuestros clientes de manera personalizada, con conciencia y
-          consideración, y tomando en cuenta los gustos particulares.
-        </li>
-        <li>
-          Ofrecer un catálogo de shows que cumplan con las expectativas de cada
-          tipo de evento.
-        </li>
-        <li>
-          Estar presentes desde el contacto inicial hasta luego de finalizada la
-          fiesta.
-        </li>
-        <li>
-          Que nuestros clientes queden felices con nuestro servicio y nos
-          recomienden. ¡Esa es la mejor recompensa!
-        </li>
-      </ul>
-    </section>
-    <section class="ordenH3">
-      <h3>Equipo</h3>
-      <p>
-        Somos una empresa dedicada a la organización y a la producción de
-        eventos desde hace más de 10 años. El equipo está liderado por Florencia
-        Copoletti, quien cuenta con una vasta experiencia en el rubro.
-      </p>
+    <section class="grid-aboutus">
+      <div class="card tarjetitas uno">
+        <div class="card-body">
+          <h2 class="card-title">Misión</h2>
+          <p class="card-text">
+            Nuestra misión es cumplir con las expectativas y los deseos de cada
+            uno de nuestros actuales y futuros clientes; brindándoles seguridad,
+            contención y asesoramiento constantes pars que el día del evento
+            puedan disfutar sin preocupaciones.
+          </p>
+        </div>
+      </div>
+      <div class="card tarjetitas dos">
+        <div class="card-body">
+          <h2 class="card-title">Visión</h2>
+          <p class="card-text">
+            Nuestra visión es ser reconocidos profesionalmente en el mercado de
+            los eventos y seguir creciendo, y superándonos, día a día.
+          </p>
+        </div>
+      </div>
+      <div class="card tarjetitas tres">
+        <div class="card-body">
+          <h2 class="card-title">Objetivos</h2>
+          <ul>
+            <li>Brindar un servicio de calidad.</li>
+            <li>
+              Asesorar a nuestros clientes de manera personalizada, con
+              conciencia y consideración, y tomando en cuenta los gustos
+              particulares.
+            </li>
+            <li>
+              Ofrecer un catálogo de shows que cumplan con las expectativas de
+              cada tipo de evento.
+            </li>
+            <li>
+              Estar presentes desde el contacto inicial hasta luego de
+              finalizada la fiesta.
+            </li>
+            <li>
+              Que nuestros clientes queden felices con nuestro servicio y nos
+              recomienden. ¡Esa es la mejor recompensa!
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card tarjetitas cuatro">
+        <div class="card-header">
+          <h3>Equipo</h3>
+        </div>
+        <div class="card-body">
+          <p>
+            Somos una empresa dedicada a la organización y a la producción de
+            eventos desde hace más de 10 años. El equipo está liderado por
+            Florencia Copoletti, quien cuenta con una vasta experiencia en el
+            rubro.
+          </p>
+        </div>
+      </div>
     </section>
     <!-- Fin de la sección ABOUTUS -->
     <!-- Inicio de la sección CONTACTO -->
     <!-- Inicio del formulario de contacto -->
     <h1 id="contacto">Contacto</h1>
     <section class="gridOrdenContacto">
-      <form action="">
-        <fieldset class="ordenFieldset">
-          <div>
-            <label for="motivo">Motivo del contacto:</label>
-            <select name="motivo" id="motivo">
-              <option value="consulta">Consulta general</option>
-              <option value="pedido">Pedido de información</option>
-              <option value="queja">Queja</option>
-              <option value="otro">Otro</option>
-            </select>
-          </div>
-          <div>
-            <label for="nombre">Nombre completo:</label>
-            <input type="text" name="nombre" placeholder="Diana Prince"/>
+      <div>
+        <form action="">
+          <fieldset class="ordenFieldset">
+            <div>
+              <label for="motivo">Motivo del contacto:</label>
+              <select name="motivo" id="motivo">
+                <option value="consulta">Consulta general</option>
+                <option value="pedido">Pedido de información</option>
+                <option value="queja">Queja</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div>
+              <label for="nombre">Nombre completo:</label>
+              <input type="text" name="nombre" placeholder="Diana Prince" />
+              <br />
+            </div>
+            <div>
+              <label for="correo">E-mail:</label>
+              <input
+                type="email"
+                name="correo"
+                placeholder="wonderwoman@gmail.com"
+              />
+              <br />
+            </div>
             <br />
-          </div>
-          <div>
-            <label for="correo">E-mail:</label>
-            <input
-              type="email"
-              name="correo"
-              placeholder="wonderwoman@gmail.com"
-            />
+            <div>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="50"
+                rows="10"
+                placeholder="Escriba su mensaje aquí."
+              ></textarea>
+            </div>
             <br />
-          </div>
-          <br />
-          <div>
-            <textarea
-              name="mensaje"
-              id="mensaje"
-              cols="50"
-              rows="10"
-              placeholder="Escriba su mensaje aquí."
-            ></textarea>
-          </div>
-          <br />
-          <div>
-            <label for="">¿Quiere suscribirse al newsletter?</label>
-            <input type="checkbox" value="1" />
-          </div>
-          <br />
-          <input type="submit" value="Enviar" />          
-        </fieldset>
-      </form>
+            <div>
+              <label for="">¿Quiere suscribirse al newsletter?</label>
+              <input type="checkbox" value="1" />
+            </div>
+            <br />
+            <input type="submit" value="Enviar" />
+          </fieldset>
+        </form>
+      </div>
       <!-- Fin del formulario de contacto -->
       <!-- Inicio de la sección de links a redes sociales -->
       <div class="linksRedesSociales">

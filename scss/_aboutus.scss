@@ -1,0 +1,33 @@
+//Estilos de la sección about us
+.uno {
+    grid-area: uno;
+}
+
+.dos {
+    grid-area: dos;
+}
+
+.tres {
+    grid-area: tres;
+}
+
+.cuatro {
+    grid-area: cuatro;
+}
+
+.grid-aboutus {
+  display: grid;
+  grid-template-areas: 
+  "uno dos tres"
+  "cuatro cuatro cuatro";
+}
+
+.tarjetitas {
+    border-radius: 10px;
+    border: none;
+    margin: 1rem 3rem;
+}
+
+div ul li {
+  font-family: ($principal);
+}

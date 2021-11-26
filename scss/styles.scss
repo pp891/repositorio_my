@@ -4,6 +4,9 @@
 //Tipografías
 @import "types";
 
+//Header
+@import "header";
+
 //Reseteo
 * {
   margin: 0;
@@ -18,7 +21,6 @@ body {
 h1 {
   color: ($uva);
   font-family: ($secundaria), cursive;
-  margin: 50px;
   padding: 15px;
 }
 
@@ -31,40 +33,10 @@ h2 {
 
 h3 {
   color: ($rosa-paradiso);
-  background-color: ($cardo-ruso);
   font-family: ($secundaria), sans-serif;
-  padding: 4px;
 }
 
 p {
-  font-family: ($principal), sans-serif;
-}
-
-//Header
-header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: ($cardo-ruso);
-  font-size: 1.8rem;
-  nav ul li {
-    padding: 1px;
-    margin: 2px;
-    a {
-      text-decoration: none;
-    }
-    a:hover {
-      background-color: ($rosa-paradiso);
-    }
-  }
-}
-
-.heroImg {
-  height: 8rem;
-}
-
-.estiloMenu {
-  color: ($uva);
   font-family: ($principal), sans-serif;
 }
 
@@ -96,71 +68,28 @@ header {
 }
 
 //Estilos de la sección about us
-section ul li {
-  font-family: ($principal);
-}
+@import "aboutus";
 
 //Estilos de la sección de contacto
-.gridOrdenContacto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  margin-left: 50px;
-  margin-right: 50px;
-  gap: 20px;
-}
-
-.linksRedesSociales {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ordenFieldset {
-    display: flex-block;
-    justify-content: stretch;
-}
-
-form {
-  margin: 10px;
-  padding: 10px;
-  font-family: ($principal);
-}
-
-fieldset {
-  padding: 15px;
-}
-
-textarea:placeholder-shown {
-  background-color: lightyellow;
-}
-
-input:hover {
-  text-decoration: ($uva);
-  font-weight: bolder;
-}
+@import "contacto";
 
 //Botón volver arriba
 button {
   border-style: none;
+  background-color: var($lino);
+  margin: 1rem;
   a {
-    text-decoration: none;
+    text-decoration:none;
+    text-shadow: 0.1rem;
+    font-family: var($principal);
+    font-size: 1.5rem;
+    color: ($shade-of-black);
+  }
+  a:hover {
+    text-decoration: underline;
     color: ($shade-of-black);
   }
 }
 
 //Footer
-footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: ($shade-of-black);
-  letter-spacing: 5px;
-  text-align: center;
-  p {
-    font-family: ($lighthouse), cursive;
-    color: ($cardo-ruso);
-  }
-  img {
-    height: 1.5rem;
-  }
-}
+@import "footer";

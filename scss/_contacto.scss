@@ -1,0 +1,39 @@
+//Estilos de la sección de contacto
+.gridOrdenContacto {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 20px;
+}
+
+.linksRedesSociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ordenFieldset {
+  display: flex-block;
+  justify-content: stretch;
+}
+
+form {
+  margin: 10px;
+  padding: 10px;
+  font-family: ($principal);
+}
+
+fieldset {
+  padding: 15px;
+}
+
+textarea:placeholder-shown {
+  background-color: lightyellow;
+}
+
+input:hover {
+  text-decoration: ($uva);
+  font-weight: bolder;
+}

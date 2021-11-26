@@ -1,0 +1,15 @@
+//Footer
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: ($shade-of-black);
+  letter-spacing: 5px;
+  text-align: center;
+  p {
+    font-family: ($lighthouse), cursive;
+    color: ($cardo-ruso);
+  }
+  img {
+    height: 1.5rem;
+  }
+}
