@@ -40,24 +40,13 @@ p {
   font-family: ($principal), sans-serif;
 }
 
-// Estilos de imágenes y videos
-.imagenEventos {
-  border-radius: 25px;
-  padding-left: 2px;
-  padding-right: 2px;
-  padding-bottom: 3px;
-}
+// Estilos de la sección eventos
+@import "eventos";
 
+// Estilos de imágenes y videos
 .videos {
   margin: 10px;
   border-radius: 25px;
-}
-
-.gridFotosEventos {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5px;
 }
 
 .ordenVideosShows {
@@ -74,20 +63,27 @@ p {
 @import "contacto";
 
 //Botón volver arriba
-button {
+.boton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+div button {
   border-style: none;
-  background-color: var($lino);
-  margin: 1rem;
+  background-color: transparent;
+  box-shadow: 5px 5px 15px 5px var($uva);
+  margin-bottom: 1rem;
+  margin-right: 3rem;
   a {
-    text-decoration:none;
+    text-decoration: none;
     text-shadow: 0.1rem;
     font-family: var($principal);
     font-size: 1.5rem;
     color: ($shade-of-black);
   }
   a:hover {
-    text-decoration: underline;
-    color: ($shade-of-black);
+    background-color: var($rosa-paradiso);
+    color: var($shade-of-black);
   }
 }
 

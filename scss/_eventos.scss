@@ -1,0 +1,18 @@
+//Sección eventos
+.eventos {
+  margin: 1rem;
+}
+
+.imagenEventos {
+  border-radius: 25px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 3px;
+}
+
+.gridFotosEventos {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+}

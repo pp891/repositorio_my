@@ -3,17 +3,17 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  align-content: stretch;
   background-color: ($cardo-ruso);
   font-size: 1.8rem;
   nav ul li {
     padding: 1px;
-    margin: 2px;
+    margin: 1px;
     a {
       text-decoration: none;
     }
-    a:hover {
-      background-color: ($rosa-paradiso);
-      color: ($uva);
+    a:hover {      
+      color: ($rosa-paradiso);
     }
   }
 }
@@ -24,5 +24,5 @@ header {
 
 .estiloMenu {
   color: ($uva);
-  font-family: ($principal), sans-serif;
+  font-family: ($secundaria), sans-serif;
 }

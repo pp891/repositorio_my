@@ -1,25 +1,9 @@
 //Estilos de la sección about us
-.uno {
-    grid-area: uno;
-}
-
-.dos {
-    grid-area: dos;
-}
-
-.tres {
-    grid-area: tres;
-}
-
-.cuatro {
-    grid-area: cuatro;
-}
-
-.grid-aboutus {
-  display: grid;
-  grid-template-areas: 
-  "uno dos tres"
-  "cuatro cuatro cuatro";
+.ordenAboutUs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
 }
 
 .tarjetitas {
