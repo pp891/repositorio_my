@@ -30,23 +30,24 @@ body {
 h1 {
   color: #734;
   font-family: "Cinzel Decorative", cursive;
+  font-weight: bold;
   padding: 15px; }
 
 h2 {
   color: #d44d5c;
-  font-weight: bold;
   font-family: "Cinzel Decorative", cursive;
   padding: 2px; }
 
 h3 {
   color: #d44d5c;
-  font-family: "Cinzel Decorative", sans-serif; }
+  font-family: "Cinzel Decorative", sans-serif;
+  font-weight: bold; }
 
 p {
   font-family: "Arima Madurai", sans-serif; }
 
-.eventos {
-  margin: 1rem; }
+.ambientaciones {
+  margin: 3rem; }
 
 .imagenEventos {
   border-radius: 25px;
@@ -60,29 +61,51 @@ p {
   grid-template-columns: repeat(2, 1fr);
   gap: 5px; }
 
+.servicios {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
+.shows {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
 .videos {
-  margin: 10px;
-  border-radius: 25px; }
+  border-radius: 5px;
+  margin: 3px; }
 
 .ordenVideosShows {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
   margin: 10px; }
 
+.aboutus {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem; }
+
 .ordenAboutUs {
-  display: inline-flex;
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: stretch;
   align-content: space-around; }
 
 .tarjetitas {
   border-radius: 10px;
   border: none;
-  margin: 1rem 3rem; }
+  margin: 1rem; }
 
-div ul li {
-  font-family: "Arima Madurai"; }
+.equipo {
+  font-size: 1.2rem; }
 
 .gridOrdenContacto {
   display: grid;

@@ -1,0 +1,21 @@
+//Sección shows
+.shows {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.videos {
+    border-radius: 5px;
+    margin: 3px;
+  }
+  
+  .ordenVideosShows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    margin: 10px;
+  }  

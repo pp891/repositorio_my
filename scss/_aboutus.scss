@@ -1,17 +1,26 @@
-//Estilos de la sección about us
+//Sección about us
+.aboutus {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 .ordenAboutUs {
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: stretch;
     align-content: space-around;
 }
 
 .tarjetitas {
     border-radius: 10px;
     border: none;
-    margin: 1rem 3rem;
+    margin: 1rem;
 }
 
-div ul li {
-  font-family: ($principal);
+.equipo {
+  font-size: 1.2rem;
 }

@@ -21,12 +21,12 @@ body {
 h1 {
   color: ($uva);
   font-family: ($secundaria), cursive;
+  font-weight: bold;
   padding: 15px;
 }
 
 h2 {
   color: ($rosa-paradiso);
-  font-weight: bold;
   font-family: ($secundaria), cursive;
   padding: 2px;
 }
@@ -34,27 +34,21 @@ h2 {
 h3 {
   color: ($rosa-paradiso);
   font-family: ($secundaria), sans-serif;
+  font-weight: bold;
 }
 
 p {
   font-family: ($principal), sans-serif;
 }
 
-// Estilos de la sección eventos
-@import "eventos";
+//Estilos de la sección ambientaciones
+@import "ambientaciones";
 
-// Estilos de imágenes y videos
-.videos {
-  margin: 10px;
-  border-radius: 25px;
-}
+//Estilos de la sección servicios
+@import "servicios";
 
-.ordenVideosShows {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 10px;
-}
+//Estilos de la sección shows
+@import "shows";
 
 //Estilos de la sección about us
 @import "aboutus";
