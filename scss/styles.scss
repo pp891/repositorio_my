@@ -4,9 +4,6 @@
 //Tipografías
 @import "types";
 
-//Header
-@import "header";
-
 //Reseteo
 * {
   margin: 0;
@@ -22,13 +19,13 @@ h1 {
   color: ($uva);
   font-family: ($secundaria), cursive;
   font-weight: bold;
-  padding: 15px;
+  padding: 5rem;
 }
 
 h2 {
   color: ($rosa-paradiso);
   font-family: ($secundaria), cursive;
-  padding: 2px;
+  padding: 1rem;
 }
 
 h3 {
@@ -40,6 +37,9 @@ h3 {
 p {
   font-family: ($principal), sans-serif;
 }
+
+//Estilos del header
+@import "header";
 
 //Estilos de la sección ambientaciones
 @import "ambientaciones";
@@ -57,29 +57,7 @@ p {
 @import "contacto";
 
 //Botón volver arriba
-.boton {
-  display: flex;
-  justify-content: flex-end;
-}
-
-div button {
-  border-style: none;
-  background-color: transparent;
-  box-shadow: 5px 5px 15px 5px var($uva);
-  margin-bottom: 1rem;
-  margin-right: 3rem;
-  a {
-    text-decoration: none;
-    text-shadow: 0.1rem;
-    font-family: var($principal);
-    font-size: 1.5rem;
-    color: ($shade-of-black);
-  }
-  a:hover {
-    background-color: var($rosa-paradiso);
-    color: var($shade-of-black);
-  }
-}
+@import "up";
 
 //Footer
 @import "footer";

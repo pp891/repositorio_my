@@ -1,0 +1,25 @@
+//Botón "Volver arriba"
+.boton {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  div button {
+    border-style: none;
+    background-color: transparent;
+    box-shadow: 5px 5px 15px 5px var($uva);
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+    a {
+      text-decoration: none;
+      text-shadow: 0.1rem;
+      font-family: var($principal);
+      font-size: 1.5rem;
+      color: ($shade-of-black);
+    }
+    a:hover {
+      background-color: var($rosa-paradiso);
+      color: var($shade-of-black);
+    }
+  }
+  

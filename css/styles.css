@@ -1,3 +1,29 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #f5e9e2; }
+
+h1 {
+  color: #734;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: bold;
+  padding: 5rem; }
+
+h2 {
+  color: #d44d5c;
+  font-family: "Cinzel Decorative", cursive;
+  padding: 1rem; }
+
+h3 {
+  color: #d44d5c;
+  font-family: "Cinzel Decorative", sans-serif;
+  font-weight: bold; }
+
+p {
+  font-family: "Arima Madurai", sans-serif; }
+
 header {
   display: flex;
   justify-content: space-around;
@@ -19,32 +45,6 @@ header {
 .estiloMenu {
   color: #734;
   font-family: "Cinzel Decorative", sans-serif; }
-
-* {
-  margin: 0;
-  padding: 0; }
-
-body {
-  background-color: #f5e9e2; }
-
-h1 {
-  color: #734;
-  font-family: "Cinzel Decorative", cursive;
-  font-weight: bold;
-  padding: 15px; }
-
-h2 {
-  color: #d44d5c;
-  font-family: "Cinzel Decorative", cursive;
-  padding: 2px; }
-
-h3 {
-  color: #d44d5c;
-  font-family: "Cinzel Decorative", sans-serif;
-  font-weight: bold; }
-
-p {
-  font-family: "Arima Madurai", sans-serif; }
 
 .ambientaciones {
   margin: 3rem; }
@@ -160,6 +160,7 @@ div button {
     color: var(#0b0014); }
 
 footer {
+  margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #0b0014;
