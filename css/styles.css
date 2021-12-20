@@ -40,6 +40,10 @@ header {
     header nav ul li a:hover {
       color: #d44d5c; }
 
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 1rem; } }
+
 .heroImg {
   height: 8rem; }
 
@@ -108,14 +112,21 @@ header {
 .linksRedesSociales {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem; }
+
+.img {
+  height: 10rem;
+  margin: 1rem; }
 
 .boton-flotante {
   font-size: 1rem;
   text-decoration: none;
   font-family: var("Cinzel Decorative");
   color: var(#0b0014);
-  background-color: transparent;
+  background-color: var(#734);
   position: fixed;
   bottom: 40px;
   right: 40px;

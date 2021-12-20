@@ -18,6 +18,12 @@ header {
   }
 }
 
+@media screen and (max-width: 600px) {
+  header {
+  font-size: 1rem;
+  }
+}
+
 .heroImg {
   height: 8rem;
 }
